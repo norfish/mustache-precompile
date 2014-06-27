@@ -48,11 +48,11 @@ function parseFile(file){
 }
 
 function read(filepath){
-  if(!fs.exists( syspath.dirname(filepath) ) ){
+  /*if(fs.exists( syspath.dirname(filepath) ) ){
     throw('cannot find ' + filepath);
-  }else{
+  }else{*/
     return fs.readFileSync( filepath ).toString().replace( /\r\n/g , '\n' );
-  }
+  //}
 }
 
 function write(tar, content){

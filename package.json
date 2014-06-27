@@ -1,8 +1,12 @@
 {
   "name": "mustache-precompile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "precompile mustache file into template(js)",
-  "main": "index.js",
+  "main": "mupre.js",
+  "preferGlobal": "true",
+  "bin": { "mupre": "mupre.js" },
+  "author": "norfish",
+  "email": "easumlee@gmail.com",
   "scripts": {
     "test": "mupre test"
   },
