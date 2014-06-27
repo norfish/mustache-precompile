@@ -1,0 +1,2 @@
+if(typeof window.QTMPL === "undefined"){ window.QTMPL={}; }
+window.QTMPL.example = new window.Hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div>");t.b("\n" + i);t.b("    <h1>");t.b(t.v(t.f("name",c,p,0)));t.b("hava a dream.</h1>");t.b("\n" + i);t.b("</div>");t.b("\n");return t.fl(); },partials: {}, subs: {  }});
